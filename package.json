@@ -1,0 +1,24 @@
+{
+  "name": "test-rpkg",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/index.ts",
+  "type": "module",
+  "scripts": {
+    "build": "rollup -c"
+  },
+  "engines": {
+    "node": "18.13.0"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@rollup/plugin-terser": "^0.4.3",
+    "@rollup/plugin-typescript": "^11.1.2",
+    "rollup": "^3.26.3",
+    "rollup-plugin-clear": "^2.0.7",
+    "tslib": "^2.6.0",
+    "typescript": "^5.1.6"
+  }
+}
